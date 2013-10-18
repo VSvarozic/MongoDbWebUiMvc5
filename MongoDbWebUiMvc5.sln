@@ -13,14 +13,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{696B7FFD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDB.WebUi", "MDB.WebUi\MDB.WebUi.csproj", "{18367D4F-C724-42F2-9264-B9EA7BCF380E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6420DA8-3FE5-4AB5-892F-EE496CC9C065}"
-	ProjectSection(SolutionItems) = preProject
-		ExternalLib\SimpleMembershipModule.dll = ExternalLib\SimpleMembershipModule.dll
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDB.Domain.Model", "MDB.Domain.Model\MDB.Domain.Model.csproj", "{D00CBEBE-DBF6-4DA6-97BC-9497ECE26AFD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDB.Data.EF", "MDB.Data.EF\MDB.Data.EF.csproj", "{1310301F-FE7F-4311-A9B3-7B754C8B9E56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4EA7AE21-928B-4D68-B6DE-A97BA77983AC}"
+	ProjectSection(SolutionItems) = preProject
+		ExternalLib\SimpleMembershipModule.dll = ExternalLib\SimpleMembershipModule.dll
+		ExternalLib\SimpleMembershipModule.dll.config = ExternalLib\SimpleMembershipModule.dll.config
+		ExternalLib\SimpleMembershipModule.pdb = ExternalLib\SimpleMembershipModule.pdb
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
