@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7F4B7046-8FC2-4BDD-A10B-B00E9D3ECE86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{27591445-D277-448F-B681-E3F3F0D6BAFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{DA5FA2DA-B3E3-4B4B-AB21-B82E8BE04658}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{696B7FFD-03CC-493A-81A0-A38B9D93429C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDB.WebUi", "MDB.WebUi\MDB.WebUi.csproj", "{18367D4F-C724-42F2-9264-B9EA7BCF380E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6420DA8-3FE5-4AB5-892F-EE496CC9C065}"
+	ProjectSection(SolutionItems) = preProject
+		ExternalLib\SimpleMembershipModule.dll = ExternalLib\SimpleMembershipModule.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDB.Domain.Model", "MDB.Domain.Model\MDB.Domain.Model.csproj", "{D00CBEBE-DBF6-4DA6-97BC-9497ECE26AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDB.Data.EF", "MDB.Data.EF\MDB.Data.EF.csproj", "{1310301F-FE7F-4311-A9B3-7B754C8B9E56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18367D4F-C724-42F2-9264-B9EA7BCF380E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18367D4F-C724-42F2-9264-B9EA7BCF380E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18367D4F-C724-42F2-9264-B9EA7BCF380E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18367D4F-C724-42F2-9264-B9EA7BCF380E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00CBEBE-DBF6-4DA6-97BC-9497ECE26AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00CBEBE-DBF6-4DA6-97BC-9497ECE26AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00CBEBE-DBF6-4DA6-97BC-9497ECE26AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00CBEBE-DBF6-4DA6-97BC-9497ECE26AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1310301F-FE7F-4311-A9B3-7B754C8B9E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1310301F-FE7F-4311-A9B3-7B754C8B9E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1310301F-FE7F-4311-A9B3-7B754C8B9E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1310301F-FE7F-4311-A9B3-7B754C8B9E56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18367D4F-C724-42F2-9264-B9EA7BCF380E} = {7F4B7046-8FC2-4BDD-A10B-B00E9D3ECE86}
+		{D00CBEBE-DBF6-4DA6-97BC-9497ECE26AFD} = {27591445-D277-448F-B681-E3F3F0D6BAFD}
+		{1310301F-FE7F-4311-A9B3-7B754C8B9E56} = {DA5FA2DA-B3E3-4B4B-AB21-B82E8BE04658}
+	EndGlobalSection
+EndGlobal
