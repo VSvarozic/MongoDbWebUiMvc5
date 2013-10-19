@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Web
+# Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7F4B7046-8FC2-4BDD-A10B-B00E9D3ECE86}"
@@ -22,6 +22,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ExternalLib\SimpleMembershipModule.dll = ExternalLib\SimpleMembershipModule.dll
 		ExternalLib\SimpleMembershipModule.dll.config = ExternalLib\SimpleMembershipModule.dll.config
 		ExternalLib\SimpleMembershipModule.pdb = ExternalLib\SimpleMembershipModule.pdb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BD63BA10-5DBD-4EA3-AD6E-5E2356D8E452}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
 Global
